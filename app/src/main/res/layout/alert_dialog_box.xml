@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/detName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:background="@drawable/style_edit_text"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/detProfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_profession"
+        android:drawablePadding="10dp"
+        android:background="@drawable/style_edit_text"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/detResidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_residence"
+        android:drawablePadding="10dp"
+        android:background="@drawable/style_edit_text"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/detPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:background="@drawable/style_edit_text"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>
